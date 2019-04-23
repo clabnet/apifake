@@ -1,9 +1,22 @@
 {
-  "posts": [
+  "luci": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "divano"
+    },
+    {
+      "id": 2,
+      "title": "sala"
+    },
+    {
+      "id": 3,
+      "title": "console"
+    },
+    {
+      "id": 4,
+      "title": "ingresso"
     }
+
   ],
   "profile": {
     "name": "typicode"
