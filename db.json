@@ -1,24 +1,45 @@
 {
-  "luci": [
-    {
-      "id": 1,
-      "title": "divano"
+    "luci": [
+        {
+            "id": 1,
+            "title": "divano"
+        },
+        {
+            "id": 2,
+            "title": "sala"
+        },
+        {
+            "id": 3,
+            "title": "console"
+        },
+        {
+            "id": 4,
+            "title": "ingresso"
+        }
+    ],
+    "profile": {
+        "name": "typicode"
     },
-    {
-      "id": 2,
-      "title": "sala"
-    },
-    {
-      "id": 3,
-      "title": "console"
-    },
-    {
-      "id": 4,
-      "title": "ingresso"
-    }
-
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-} 
+    "pwapoc": [
+        {
+            "user": {
+                "id": 1,
+                "name": "Claudio",
+                "email": "c.barca@libero.it",
+                "password": "$2a$10$i2QBzr2xdVE1mj9BANGhHOQIyomd7tfpJ4aPD0kl1NyYmCCtB4X4W"
+            },
+            "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTYzNjEyNjY0LCJleHAiOjE1NjM2OTkwNjR9.2YNt3qseMZ-7OQC8zF8fLnb-104-gOxDYnYc2oYdz1c",
+            "expires_in": 86400
+        },
+        {
+            "user": {
+                "id": 2,
+                "name": "Lorenzo",
+                "email": "lorenzo.ardizzone@gmail.com",
+                "password": "$2a$10$MIWoZfCwY4GQjKXS3QBW3u6xPscU4UVRPTHpWbNpObSCUWsavaSum"
+            },
+            "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTYzNjE0NjI2LCJleHAiOjE1NjM3MDEwMjZ9.NIbzkFsJBgZSlFchHEdd7xh_ZyNc3jV_WWfIAMPyECs",
+            "expires_in": 86400
+        }
+    ]
+}
