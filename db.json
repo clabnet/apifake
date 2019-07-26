@@ -2,19 +2,19 @@
     "visitors": [
         {
             "id": 1,
-            "ticket": 1
+            "title": "John"
         },
         {
             "id": 2,
-            "ticket": 2
+            "title": "Pippo"
         },
         {
             "id": 3,
-            "ticket": 3
+            "title": "Lucia"
         },
         {
             "id": 4,
-            "ticket": 4
+            "title": "Valeria"
         }
     ],
     "profile": {
