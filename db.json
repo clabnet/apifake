@@ -1,383 +1,374 @@
 {
-  "ticket": [
-    {
-		"ticket_id": 2,
-		"area_id": 9,
-		"event_id": 10,
-		"first_name": "Fannie",
-		"last_name": "Hughes",
-		"fiscal_code": "Sureplex",
-		"birth_date": "2019-08-06",
-		"birth_place": "Worcester",
-		"sector": "Settore 1",
-		"row": 2,
-		"seat": 2,
-		"icon": "checked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 1,
-		"area_id": 1,
-		"event_id": 3,
-		"first_name": "Taylor",
-		"last_name": "Barber",
-		"fiscal_code": "Interodeo",
-		"birth_date": "2019-08-06",
-		"birth_place": "Bartley",
-		"sector": "Settore 3",
-		"row": 6,
-		"seat": 4,
-		"icon": "checked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 0,
-		"area_id": 0,
-		"event_id": 9,
-		"first_name": "Verna",
-		"last_name": "Langley",
-		"fiscal_code": "Hotcakes",
-		"birth_date": "2019-08-06",
-		"birth_place": "Fairfield",
-		"sector": "Settore 3",
-		"row": 6,
-		"seat": 4,
-		"icon": "unchecked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 3,
-		"area_id": 4,
-		"event_id": 3,
-		"first_name": "Bauer",
-		"last_name": "Greene",
-		"fiscal_code": "Zentime",
-		"birth_date": "2019-08-06",
-		"birth_place": "Monument",
-		"sector": "Settore 3",
-		"row": 3,
-		"seat": 5,
-		"icon": "unchecked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 8,
-		"area_id": 4,
-		"event_id": 5,
-		"first_name": "Benton",
-		"last_name": "Hess",
-		"fiscal_code": "Pearlesex",
-		"birth_date": "2019-08-06",
-		"birth_place": "Fairacres",
-		"sector": "Settore 1",
-		"row": 4,
-		"seat": 3,
-		"icon": "checked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 2,
-		"area_id": 8,
-		"event_id": 9,
-		"first_name": "Lindsay",
-		"last_name": "Mclaughlin",
-		"fiscal_code": "Krog",
-		"birth_date": "2019-08-06",
-		"birth_place": "Stollings",
-		"sector": "Settore 3",
-		"row": 4,
-		"seat": 1,
-		"icon": "unchecked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 7,
-		"area_id": 4,
-		"event_id": 7,
-		"first_name": "Britt",
-		"last_name": "Hodge",
-		"fiscal_code": "Enormo",
-		"birth_date": "2019-08-06",
-		"birth_place": "Grandview",
-		"sector": "Settore 2",
-		"row": 4,
-		"seat": 4,
-		"icon": "unchecked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 1,
-		"area_id": 0,
-		"event_id": 1,
-		"first_name": "Florence",
-		"last_name": "Wiley",
-		"fiscal_code": "Assurity",
-		"birth_date": "2019-08-06",
-		"birth_place": "Inkerman",
-		"sector": "Settore 2",
-		"row": 1,
-		"seat": 5,
-		"icon": "checked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 5,
-		"area_id": 6,
-		"event_id": 3,
-		"first_name": "Leann",
-		"last_name": "Morris",
-		"fiscal_code": "Chorizon",
-		"birth_date": "2019-08-06",
-		"birth_place": "Motley",
-		"sector": "Settore 1",
-		"row": 2,
-		"seat": 6,
-		"icon": "checked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 5,
-		"area_id": 7,
-		"event_id": 3,
-		"first_name": "Ramos",
-		"last_name": "Vincent",
-		"fiscal_code": "Isostream",
-		"birth_date": "2019-08-06",
-		"birth_place": "Foscoe",
-		"sector": "Settore 1",
-		"row": 1,
-		"seat": 1,
-		"icon": "unchecked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 10,
-		"area_id": 7,
-		"event_id": 10,
-		"first_name": "Brenda",
-		"last_name": "Hopkins",
-		"fiscal_code": "Providco",
-		"birth_date": "2019-08-06",
-		"birth_place": "Hachita",
-		"sector": "Settore 1",
-		"row": 5,
-		"seat": 3,
-		"icon": "checked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 1,
-		"area_id": 7,
-		"event_id": 8,
-		"first_name": "Hollie",
-		"last_name": "Black",
-		"fiscal_code": "Gorganic",
-		"birth_date": "2019-08-06",
-		"birth_place": "Caron",
-		"sector": "Settore 2",
-		"row": 3,
-		"seat": 2,
-		"icon": "unchecked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 8,
-		"area_id": 3,
-		"event_id": 3,
-		"first_name": "Bullock",
-		"last_name": "Pittman",
-		"fiscal_code": "Cosmosis",
-		"birth_date": "2019-08-06",
-		"birth_place": "Coral",
-		"sector": "Settore 1",
-		"row": 5,
-		"seat": 1,
-		"icon": "checked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 8,
-		"area_id": 10,
-		"event_id": 5,
-		"first_name": "Heather",
-		"last_name": "Sosa",
-		"fiscal_code": "Gleamink",
-		"birth_date": "2019-08-06",
-		"birth_place": "Stagecoach",
-		"sector": "Settore 1",
-		"row": 6,
-		"seat": 6,
-		"icon": "checked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 5,
-		"area_id": 4,
-		"event_id": 4,
-		"first_name": "Rogers",
-		"last_name": "Burns",
-		"fiscal_code": "Ebidco",
-		"birth_date": "2019-08-06",
-		"birth_place": "Summerfield",
-		"sector": "Settore 2",
-		"row": 6,
-		"seat": 4,
-		"icon": "unchecked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 10,
-		"area_id": 9,
-		"event_id": 3,
-		"first_name": "Dionne",
-		"last_name": "Powers",
-		"fiscal_code": "Lunchpod",
-		"birth_date": "2019-08-06",
-		"birth_place": "Welda",
-		"sector": "Settore 2",
-		"row": 2,
-		"seat": 5,
-		"icon": "unchecked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 10,
-		"area_id": 2,
-		"event_id": 10,
-		"first_name": "Bertie",
-		"last_name": "Welch",
-		"fiscal_code": "Spacewax",
-		"birth_date": "2019-08-06",
-		"birth_place": "Tivoli",
-		"sector": "Settore 1",
-		"row": 1,
-		"seat": 4,
-		"icon": "checked.ico",
-		"area_enablement": false
-	  },
-	  {
-		"ticket_id": 0,
-		"area_id": 3,
-		"event_id": 0,
-		"first_name": "Elaine",
-		"last_name": "Burnett",
-		"fiscal_code": "Zuvy",
-		"birth_date": "2019-08-06",
-		"birth_place": "Riner",
-		"sector": "Settore 3",
-		"row": 5,
-		"seat": 2,
-		"icon": "unchecked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 5,
-		"area_id": 10,
-		"event_id": 6,
-		"first_name": "Jewell",
-		"last_name": "Patton",
-		"fiscal_code": "Zboo",
-		"birth_date": "2019-08-06",
-		"birth_place": "Ronco",
-		"sector": "Settore 2",
-		"row": 1,
-		"seat": 3,
-		"icon": "unchecked.ico",
-		"area_enablement": true
-	  },
-	  {
-		"ticket_id": 5,
-		"area_id": 4,
-		"event_id": 4,
-		"first_name": "Garrison",
-		"last_name": "Sparks",
-		"fiscal_code": "Zentility",
-		"birth_date": "2019-08-06",
-		"birth_place": "Bainbridge",
-		"sector": "Settore 3",
-		"row": 1,
-		"seat": 1,
-		"icon": "unchecked.ico",
-		"area_enablement": false
-	  }
-  ],
-
-  "login": [
-    {
-      "user": {
-        "id": 1,
-        "name": "a",
-        "email": "email@test.it",
-        "password": "$2a$10$i2QBzr2xdVE1mj9BANGhHOQIyomd7tfpJ4aPD0kl1NyYmCCtB4X4W"
-      },
-      "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTYzNjEyNjY0LCJleHAiOjE1NjM2OTkwNjR9.2YNt3qseMZ-7OQC8zF8fLnb-104-gOxDYnYc2oYdz1c",
-      "expires_in": 86400
-    }
-  ],
-
-  "partner": [
-	{
-		"partner_id": 10,
-		"name": "Gology",
-		"image": "Reyna",
-		"image_url": "http://placehold.it/32x32"
-	  }
-  ],
-
-  "event": [
-	{
-		"event_id": 10,
-		"partner_id": 0,
-		"name": "Michele",
-		"venue_code": 4,
-		"venue": "Allianz stadium",
-		"location": "Torino",
-		"start_date": "2019-08-06T08:05:02.389Z",
-		"end_date": "2019-08-06T08:05:02.389Z",
-		"is_active": true
-	  }
-  ],
-
-  "area": [
-	{
-		"area_id": 1,
-		"name": "A",
-		"description": "Area A nord"
-	},
-        {
-		"area_id": 2,
-		"name": "B",
-		"description": "Area B sud"
-	},
-	         {
-		"area_id": 3,
-		"name": "C",
-		"description": "Area C est"
-	},
-	  	         {
-		"area_id": 4,
-		"name": "D",
-		"description": "Area D sud-est"
-	}
-	         {
-		"area_id": 5,
-		"name": "E",
-		"description": "Area E est nord"
-	}
-	         {
-		"area_id": 6,
-		"name": "F",
-		"description": "Area F est"
-	}
-	         {
-		"area_id": 7,
-		"name": "G",
-		"description": "Area G est sud ovest"
-	}
-
-
-
-  ]
-  
+	"ticket": [
+		{
+			"ticket_id": 2,
+			"area_id": 9,
+			"event_id": 10,
+			"first_name": "Fannie",
+			"last_name": "Hughes",
+			"fiscal_code": "Sureplex",
+			"birth_date": "2019-08-06",
+			"birth_place": "Worcester",
+			"sector": "Settore 1",
+			"row": 2,
+			"seat": 2,
+			"icon": "checked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 1,
+			"area_id": 1,
+			"event_id": 3,
+			"first_name": "Taylor",
+			"last_name": "Barber",
+			"fiscal_code": "Interodeo",
+			"birth_date": "2019-08-06",
+			"birth_place": "Bartley",
+			"sector": "Settore 3",
+			"row": 6,
+			"seat": 4,
+			"icon": "checked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 0,
+			"area_id": 0,
+			"event_id": 9,
+			"first_name": "Verna",
+			"last_name": "Langley",
+			"fiscal_code": "Hotcakes",
+			"birth_date": "2019-08-06",
+			"birth_place": "Fairfield",
+			"sector": "Settore 3",
+			"row": 6,
+			"seat": 4,
+			"icon": "unchecked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 3,
+			"area_id": 4,
+			"event_id": 3,
+			"first_name": "Bauer",
+			"last_name": "Greene",
+			"fiscal_code": "Zentime",
+			"birth_date": "2019-08-06",
+			"birth_place": "Monument",
+			"sector": "Settore 3",
+			"row": 3,
+			"seat": 5,
+			"icon": "unchecked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 8,
+			"area_id": 4,
+			"event_id": 5,
+			"first_name": "Benton",
+			"last_name": "Hess",
+			"fiscal_code": "Pearlesex",
+			"birth_date": "2019-08-06",
+			"birth_place": "Fairacres",
+			"sector": "Settore 1",
+			"row": 4,
+			"seat": 3,
+			"icon": "checked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 2,
+			"area_id": 8,
+			"event_id": 9,
+			"first_name": "Lindsay",
+			"last_name": "Mclaughlin",
+			"fiscal_code": "Krog",
+			"birth_date": "2019-08-06",
+			"birth_place": "Stollings",
+			"sector": "Settore 3",
+			"row": 4,
+			"seat": 1,
+			"icon": "unchecked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 7,
+			"area_id": 4,
+			"event_id": 7,
+			"first_name": "Britt",
+			"last_name": "Hodge",
+			"fiscal_code": "Enormo",
+			"birth_date": "2019-08-06",
+			"birth_place": "Grandview",
+			"sector": "Settore 2",
+			"row": 4,
+			"seat": 4,
+			"icon": "unchecked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 1,
+			"area_id": 0,
+			"event_id": 1,
+			"first_name": "Florence",
+			"last_name": "Wiley",
+			"fiscal_code": "Assurity",
+			"birth_date": "2019-08-06",
+			"birth_place": "Inkerman",
+			"sector": "Settore 2",
+			"row": 1,
+			"seat": 5,
+			"icon": "checked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 5,
+			"area_id": 6,
+			"event_id": 3,
+			"first_name": "Leann",
+			"last_name": "Morris",
+			"fiscal_code": "Chorizon",
+			"birth_date": "2019-08-06",
+			"birth_place": "Motley",
+			"sector": "Settore 1",
+			"row": 2,
+			"seat": 6,
+			"icon": "checked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 5,
+			"area_id": 7,
+			"event_id": 3,
+			"first_name": "Ramos",
+			"last_name": "Vincent",
+			"fiscal_code": "Isostream",
+			"birth_date": "2019-08-06",
+			"birth_place": "Foscoe",
+			"sector": "Settore 1",
+			"row": 1,
+			"seat": 1,
+			"icon": "unchecked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 10,
+			"area_id": 7,
+			"event_id": 10,
+			"first_name": "Brenda",
+			"last_name": "Hopkins",
+			"fiscal_code": "Providco",
+			"birth_date": "2019-08-06",
+			"birth_place": "Hachita",
+			"sector": "Settore 1",
+			"row": 5,
+			"seat": 3,
+			"icon": "checked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 1,
+			"area_id": 7,
+			"event_id": 8,
+			"first_name": "Hollie",
+			"last_name": "Black",
+			"fiscal_code": "Gorganic",
+			"birth_date": "2019-08-06",
+			"birth_place": "Caron",
+			"sector": "Settore 2",
+			"row": 3,
+			"seat": 2,
+			"icon": "unchecked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 8,
+			"area_id": 3,
+			"event_id": 3,
+			"first_name": "Bullock",
+			"last_name": "Pittman",
+			"fiscal_code": "Cosmosis",
+			"birth_date": "2019-08-06",
+			"birth_place": "Coral",
+			"sector": "Settore 1",
+			"row": 5,
+			"seat": 1,
+			"icon": "checked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 8,
+			"area_id": 10,
+			"event_id": 5,
+			"first_name": "Heather",
+			"last_name": "Sosa",
+			"fiscal_code": "Gleamink",
+			"birth_date": "2019-08-06",
+			"birth_place": "Stagecoach",
+			"sector": "Settore 1",
+			"row": 6,
+			"seat": 6,
+			"icon": "checked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 5,
+			"area_id": 4,
+			"event_id": 4,
+			"first_name": "Rogers",
+			"last_name": "Burns",
+			"fiscal_code": "Ebidco",
+			"birth_date": "2019-08-06",
+			"birth_place": "Summerfield",
+			"sector": "Settore 2",
+			"row": 6,
+			"seat": 4,
+			"icon": "unchecked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 10,
+			"area_id": 9,
+			"event_id": 3,
+			"first_name": "Dionne",
+			"last_name": "Powers",
+			"fiscal_code": "Lunchpod",
+			"birth_date": "2019-08-06",
+			"birth_place": "Welda",
+			"sector": "Settore 2",
+			"row": 2,
+			"seat": 5,
+			"icon": "unchecked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 10,
+			"area_id": 2,
+			"event_id": 10,
+			"first_name": "Bertie",
+			"last_name": "Welch",
+			"fiscal_code": "Spacewax",
+			"birth_date": "2019-08-06",
+			"birth_place": "Tivoli",
+			"sector": "Settore 1",
+			"row": 1,
+			"seat": 4,
+			"icon": "checked.ico",
+			"area_enablement": false
+		},
+		{
+			"ticket_id": 0,
+			"area_id": 3,
+			"event_id": 0,
+			"first_name": "Elaine",
+			"last_name": "Burnett",
+			"fiscal_code": "Zuvy",
+			"birth_date": "2019-08-06",
+			"birth_place": "Riner",
+			"sector": "Settore 3",
+			"row": 5,
+			"seat": 2,
+			"icon": "unchecked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 5,
+			"area_id": 10,
+			"event_id": 6,
+			"first_name": "Jewell",
+			"last_name": "Patton",
+			"fiscal_code": "Zboo",
+			"birth_date": "2019-08-06",
+			"birth_place": "Ronco",
+			"sector": "Settore 2",
+			"row": 1,
+			"seat": 3,
+			"icon": "unchecked.ico",
+			"area_enablement": true
+		},
+		{
+			"ticket_id": 5,
+			"area_id": 4,
+			"event_id": 4,
+			"first_name": "Garrison",
+			"last_name": "Sparks",
+			"fiscal_code": "Zentility",
+			"birth_date": "2019-08-06",
+			"birth_place": "Bainbridge",
+			"sector": "Settore 3",
+			"row": 1,
+			"seat": 1,
+			"icon": "unchecked.ico",
+			"area_enablement": false
+		}
+	],
+	"login": [
+		{
+			"user": {
+				"id": 1,
+				"name": "a",
+				"email": "email@test.it",
+				"password": "$2a$10$i2QBzr2xdVE1mj9BANGhHOQIyomd7tfpJ4aPD0kl1NyYmCCtB4X4W"
+			},
+			"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTYzNjEyNjY0LCJleHAiOjE1NjM2OTkwNjR9.2YNt3qseMZ-7OQC8zF8fLnb-104-gOxDYnYc2oYdz1c",
+			"expires_in": 86400
+		}
+	],
+	"partner": [
+		{
+			"partner_id": 10,
+			"name": "Gology",
+			"image": "Reyna",
+			"image_url": "http://placehold.it/32x32"
+		}
+	],
+	"event": [
+		{
+			"event_id": 10,
+			"partner_id": 0,
+			"name": "Michele",
+			"venue_code": 4,
+			"venue": "Allianz stadium",
+			"location": "Torino",
+			"start_date": "2019-08-06T08:05:02.389Z",
+			"end_date": "2019-08-06T08:05:02.389Z",
+			"is_active": true
+		}
+	],
+	"area": [
+		{
+			"area_id": 1,
+			"name": "A",
+			"description": "Area A nord"
+		},
+		{
+			"area_id": 2,
+			"name": "B",
+			"description": "Area B sud"
+		},
+		{
+			"area_id": 3,
+			"name": "C",
+			"description": "Area C est"
+		},
+		{
+			"area_id": 4,
+			"name": "D",
+			"description": "Area D sud-est"
+		},
+		{
+			"area_id": 5,
+			"name": "E",
+			"description": "Area E est nord"
+		},
+		{
+			"area_id": 6,
+			"name": "F",
+			"description": "Area F est"
+		},
+		{
+			"area_id": 7,
+			"name": "G",
+			"description": "Area G est sud ovest"
+		}
+	]
 }
-
