@@ -342,8 +342,41 @@
 	{
 		"area_id": 1,
 		"name": "A",
-		"description": "Handshake"
+		"description": "Area A nord"
+	},
+        {
+		"area_id": 2,
+		"name": "B",
+		"description": "Area B sud"
+	},
+	         {
+		"area_id": 3,
+		"name": "C",
+		"description": "Area C est"
+	},
+	  	         {
+		"area_id": 4,
+		"name": "D",
+		"description": "Area D sud-est"
 	}
+	         {
+		"area_id": 5,
+		"name": "E",
+		"description": "Area E est nord"
+	}
+	         {
+		"area_id": 6,
+		"name": "F",
+		"description": "Area F est"
+	}
+	         {
+		"area_id": 7,
+		"name": "G",
+		"description": "Area G est sud ovest"
+	}
+
+
+
   ]
   
 }
