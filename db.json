@@ -1,5 +1,5 @@
 {
-	"ticket": [
+	"tickets": [
 		{
 			"ticket_id": 2,
 			"area_id": 9,
@@ -313,7 +313,7 @@
 			"expires_in": 86400
 		}
 	],
-	"partner": [
+	"partners": [
 		{
 			"partner_id": 10,
 			"name": "Gology",
@@ -321,7 +321,7 @@
 			"image_url": "http://placehold.it/32x32"
 		}
 	],
-	"event": [
+	"events": [
 		{
 			"event_id": 10,
 			"partner_id": 0,
@@ -334,7 +334,7 @@
 			"is_active": true
 		}
 	],
-	"area": [
+	"areas": [
 		{
 			"area_id": 1,
 			"name": "A",
