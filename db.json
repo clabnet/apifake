@@ -1,49 +1,6 @@
 {
 	"partners": [
-		{
-			"id": 15,
-			"email": "pam_ramos@boink.reviews",
-			"username": "pam91",
-			"name": "Pam Ramos",
-			"company": "Boink",
-			"dob": "1991-04-18",
-			"address": "22 Middagh Street, Wedgewood, Georgia",
-			"createdAt": "2021-01-01T00:00:00.000Z",
-			"updatedAt": "2021-01-02T00:00:00.000Z"
-		},
-		{
-			"id": 12,
-			"email": "debra_bond@straloy.goldpoint",
-			"username": "debra88",
-			"name": "Debra Bond",
-			"company": "Straloy",
-			"dob": "1988-09-22",
-			"address": "62 Fulton Street, Nicholson, New Jersey",
-			"createdAt": "2021-01-01T00:00:00.000Z",
-			"updatedAt": "2021-01-02T00:00:00.000Z"
-		},
-		{
-			"id": 11,
-			"email": "krista_rasmussen@artworlds.voyage",
-			"username": "krista92",
-			"name": "Krista Rasmussen",
-			"company": "Artworlds",
-			"dob": "1992-01-29",
-			"address": "96 Lynch Street, Grimsley, Guam",
-			"createdAt": "2021-01-01T00:00:00.000Z",
-			"updatedAt": "2021-01-02T00:00:00.000Z"
-		},
-		{
-			"id": 1,
-			"email": "gibson_payne@enquility.nexus",
-			"username": "gibson92",
-			"name": "Gibson Payne",
-			"company": "Enquility",
-			"dob": "1992-07-02",
-			"address": "77 Oriental Court, Roy, California",
-			"createdAt": "2021-01-01T00:00:00.000Z",
-			"updatedAt": "2021-01-02T00:00:00.000Z"
-		},
+		
 		{
 			"id": 3,
 			"email": "roberta_hensley@kenegy.gt",
