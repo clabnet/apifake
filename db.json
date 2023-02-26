@@ -1,696 +1,267 @@
 {
-  "prodlines": [
-    {
-      "_id": "prodline-bar1",
-      "name": "Bar",
-      "areas": [
-        {
-          "name": "BAR 1",
-          "type": "reheating",
-          "position": 0,
-          "machineries": [
-            {
-              "_id": "bar1-stand1",
-              "position": 0,
-              "absoluteDistance": 0,
-              "name": "stand1 bar 1",
-              "type": "furnace",
-              "minTemperature": 20,
-              "active": true,
-              "icon": "stream-forno.png",
-              "groove": {
-                "shape": "box",
-                "height": 110,
-                "width": 172,
-                "definedTaperAngle": null,
-                "definedFillet": null,
-                "definedDiscardRadius": null,
-                "gap": 30
-              },
-              "cylinder": {
-                "diameter": 940
-              },
-              "motor": {
-                "lowVoltageTypeInfeed": "SLM",
-                "inverterNominalVoltage": 580,
-                "inverterMaxAllowableCoolingWaterTemperature": 32,
-                "inverterNominalCoolingWaterFlow": 15,
-                "coolingWaterFlow": 20,
-                "safetyFactor": 1.2,
-                "serviceFactor": 1.05,
-                "requestedOverloadAtBaseSpeed": 1.5,
-                "requestedOverloadAtTopSpeed": 1.4,
-                "breakDownTorque": 2.3,
-                "powerRatedAt50": 3500,
-                "powerRatedAt60": 3600,
-                "nominalFrequency": 70,
-                "voltageRated": 900,
-                "inverterRatedCurrent": 500,
-                "numberOfDrive": 2,
-                "speedRated": 750,
-                "MechanicalSpeedLimit": 1000
-              }
-            }
-          ]
-        },
-        {
-          "name": "BAR 2",
-          "type": "roughting",
-          "position": 1,
-          "machineries": [
-            {
-              "_id": "bar2-stand1",
-              "position": 0,
-              "absoluteDistance": 101,
-              "name": "stand1",
-              "type": "stand",
-              "rollNeckDiameter": 40,
-              "active": true,
-              "icon": "stream-forno.png",
-              "groove": {
-                "shape": "box",
-                "height": 110,
-                "width": 172,
-                "definedTaperAngle": null,
-                "definedFillet": null,
-                "definedDiscardRadius": null,
-                "gap": 30
-              }
-            },
-            {
-              "_id": "bar2-stand2",
-              "position": 1,
-              "absoluteDistance": 25,
-              "name": "stand2",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png",
-              "motor": {
-                "lowVoltageTypeInfeed": "SLM",
-                "inverterNominalVoltage": 580,
-                "inverterMaxAllowableCoolingWaterTemperature": 32,
-                "inverterNominalCoolingWaterFlow": 15,
-                "coolingWaterFlow": 20,
-                "safetyFactor": 1.2,
-                "serviceFactor": 1.05,
-                "requestedOverloadAtBaseSpeed": 1.5,
-                "requestedOverloadAtTopSpeed": 1.4,
-                "breakDownTorque": 2.3,
-                "powerRatedAt50": 3500,
-                "powerRatedAt60": 3600,
-                "nominalFrequency": 70,
-                "voltageRated": 900,
-                "inverterRatedCurrent": 500,
-                "numberOfDrive": 2,
-                "speedRated": 750,
-                "MechanicalSpeedLimit": 1000
-              }
-            },
-            {
-              "_id": "bar2-stand3",
-              "position": 2,
-              "absoluteDistance": 35,
-              "name": "stand3",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": false,
-              "icon": "stream-forno.png",
-              "motor": {
-                "lowVoltageTypeInfeed": "SLM",
-                "inverterNominalVoltage": 580,
-                "inverterMaxAllowableCoolingWaterTemperature": 32,
-                "inverterNominalCoolingWaterFlow": 15,
-                "coolingWaterFlow": 20,
-                "safetyFactor": 1.2,
-                "serviceFactor": 1.05,
-                "requestedOverloadAtBaseSpeed": 1.5,
-                "requestedOverloadAtTopSpeed": 1.4,
-                "breakDownTorque": 2.3,
-                "powerRatedAt50": 3500,
-                "powerRatedAt60": 3600,
-                "nominalFrequency": 70,
-                "voltageRated": 900,
-                "inverterRatedCurrent": 500,
-                "numberOfDrive": 2,
-                "speedRated": 750,
-                "MechanicalSpeedLimit": 1000
-              }
-            },
-            {
-              "_id": "bar2-stand4",
-              "position": 3,
-              "absoluteDistance": 45,
-              "name": "stand4",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar2-stand5",
-              "position": 4,
-              "absoluteDistance": 55,
-              "name": "stand5",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar2-stand6",
-              "position": 5,
-              "absoluteDistance": 65,
-              "name": "stand6",
-              "type": "stand",
-              "rollNeckDiameter": 30,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        },
-        {
-          "name": "BAR 3",
-          "type": "intermediate",
-          "position": 2,
-          "machineries": [
-            {
-              "_id": "bar3-stand1",
-              "position": 0,
-              "absoluteDistance": 95,
-              "name": "stand1",
-              "type": "stand",
-              "rollNeckDiameter": 30,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar3-stand2",
-              "position": 1,
-              "absoluteDistance": 105,
-              "name": "stand2",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar3-stand3",
-              "position": 2,
-              "absoluteDistance": 115,
-              "name": "stand3",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar3-stand4",
-              "position": 3,
-              "absoluteDistance": 125,
-              "name": "stand4",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": false,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar3-stand5",
-              "position": 4,
-              "absoluteDistance": 135,
-              "name": "stand5",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": false,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar3-stand6",
-              "position": 5,
-              "absoluteDistance": 145,
-              "name": "stand6",
-              "type": "stand",
-              "rollNeckDiameter": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar3-stand7",
-              "position": 6,
-              "absoluteDistance": 160,
-              "name": "stand7",
-              "type": "shear",
-              "speed": 30,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        },
-        {
-          "name": "BAR 4",
-          "type": "finishing",
-          "position": 3,
-          "machineries": [
-            {
-              "_id": "bar4-stand1",
-              "position": 0,
-              "absoluteDistance": 170,
-              "name": "stand1",
-              "type": "stand",
-              "rollNeckDiameter": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar4-stand2",
-              "position": 1,
-              "absoluteDistance": 180,
-              "name": "stand2",
-              "type": "stand",
-              "rollNeckDiameter": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar4-stand3",
-              "position": 2,
-              "absoluteDistance": 190,
-              "name": "stand3",
-              "type": "stand",
-              "rollNeckDiameter": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar4-stand4",
-              "position": 3,
-              "absoluteDistance": 200,
-              "name": "stand4",
-              "type": "stand",
-              "rollNeckDiameter": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar4-stand5",
-              "position": 4,
-              "absoluteDistance": 210,
-              "name": "stand5",
-              "type": "stand",
-              "rollNeckDiameter": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar4-stand6",
-              "position": 5,
-              "absoluteDistance": 225,
-              "name": "stand6",
-              "type": "stand",
-              "rollNeckDiameter": 15,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar4-stand7",
-              "position": 6,
-              "absoluteDistance": 240,
-              "name": "stand7",
-              "type": "shear",
-              "speed": 45,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "bar4-stand8",
-              "position": 7,
-              "absoluteDistance": 250,
-              "name": "stand8",
-              "type": "coolingbed",
-              "temperature": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        }
-      ]
+  "editorRoutes": [
+  {
+    "menuUrl": "/index",
+    "menuName": "Back",
+    "meta": {
+      "iconPrefix": "pomini-"
     },
-    {
-      "_id": "prodline-garret",
-      "name": "Garret",
-      "areas": [
-        {
-          "name": "GARRET 1",
-          "type": "reheating",
-          "position": 0,
-          "machineries": [
-            {
-              "_id": "garret1-stand1",
-              "position": 0,
-              "absoluteDistance": 0,
-              "name": "stand1",
-              "type": "furnace",
-              "minTemperature": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        },
-        {
-          "name": "GARRET 2",
-          "type": "roughting",
-          "position": 1,
-          "machineries": [
-            {
-              "_id": "garret2-stand1",
-              "position": 0,
-              "absoluteDistance": 15,
-              "name": "stand1",
-              "type": "stand",
-              "rollNeckDiameter": 40,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret2-stand2",
-              "position": 1,
-              "absoluteDistance": 25,
-              "name": "stand2",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret2-stand3",
-              "position": 2,
-              "absoluteDistance": 35,
-              "name": "stand3",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": false,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret2-stand4",
-              "position": 3,
-              "absoluteDistance": 45,
-              "name": "stand4",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret2-stand5",
-              "position": 4,
-              "absoluteDistance": 55,
-              "name": "stand5",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret2-stand6",
-              "position": 5,
-              "absoluteDistance": 65,
-              "name": "stand6",
-              "type": "stand",
-              "rollNeckDiameter": 30,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        },
-        {
-          "name": "GARRET 3",
-          "type": "intermediate",
-          "position": 2,
-          "machineries": [
-            {
-              "_id": "garret3-stand1",
-              "position": 0,
-              "absoluteDistance": 95,
-              "name": "stand1",
-              "type": "stand",
-              "rollNeckDiameter": 30,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret3-stand2",
-              "position": 1,
-              "absoluteDistance": 105,
-              "name": "stand2",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret3-stand3",
-              "position": 2,
-              "absoluteDistance": 115,
-              "name": "stand3",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret3-stand4",
-              "position": 3,
-              "absoluteDistance": 125,
-              "name": "stand4",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": false,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret3-stand5",
-              "position": 4,
-              "absoluteDistance": 135,
-              "name": "stand5",
-              "type": "stand",
-              "rollNeckDiameter": 25,
-              "active": false,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret3-stand6",
-              "position": 5,
-              "absoluteDistance": 145,
-              "name": "stand6",
-              "type": "stand",
-              "rollNeckDiameter": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "garret3-stand7",
-              "position": 6,
-              "absoluteDistance": 160,
-              "name": "stand7",
-              "type": "shear",
-              "speed": 30,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "_id": "prodline-coil",
-      "name": "Coil",
-      "areas": [
-        {
-          "name": "COIL 1",
-          "type": "reheating",
-          "position": 0,
-          "machineries": [
-            {
-              "_id": "coil1-stand1",
-              "position": 0,
-              "absoluteDistance": 0,
-              "name": "stand1",
-              "type": "furnace",
-              "minTemperature": 20,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        },
-        {
-          "name": "COIL 2",
-          "type": "roughting",
-          "position": 1,
-          "machineries": [
-            {
-              "_id": "coil2-stand1",
-              "position": 0,
-              "absoluteDistance": 15,
-              "name": "stand1",
-              "type": "stand",
-              "rollNeckDiameter": 40,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "coil2-stand2",
-              "position": 1,
-              "absoluteDistance": 25,
-              "name": "stand2",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "coil2-stand3",
-              "position": 2,
-              "absoluteDistance": 35,
-              "name": "stand3",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": false,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "coil2-stand4",
-              "position": 3,
-              "absoluteDistance": 45,
-              "name": "stand4",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "coil2-stand5",
-              "position": 4,
-              "absoluteDistance": 55,
-              "name": "stand5",
-              "type": "stand",
-              "rollNeckDiameter": 35,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "coil2-stand6",
-              "position": 5,
-              "absoluteDistance": 65,
-              "name": "stand6",
-              "type": "stand",
-              "rollNeckDiameter": 30,
-              "active": true,
-              "icon": "stream-forno.png"
-            },
-            {
-              "_id": "coil2-stand7",
-              "position": 6,
-              "absoluteDistance": 80,
-              "name": "stand7",
-              "type": "shear",
-              "speed": 40,
-              "active": true,
-              "icon": "stream-forno.png"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "product": {
-    "_id": "11111113-1111-1111-1111-111111111111",
-    "name": "Line-Production 1",
-    "billets": [
+    "children": [
       {
-        "_id": "0fbc11f5-0898-4f2e-afcc-da4cfb3dd3bf",
-        "name": "Billet AAA"
-      },
-      {
-        "_id": "7960caa0-165b-4b4c-98ea-14fca7249549",
-        "name": "Billet BBB"
-      },
-      {
-        "_id": "ec2c3476-4480-4f34-9fda-bb695f7b609f",
-        "name": "Billet CCC"
+        "parentPath": "/",
+        "menuUrl": "/home",
+        "menuName": "Welcome"
       }
-    ],
-    "finalProducts": [
+    ]
+  },
+  {
+    "menuUrl": "/catalog",
+    "menuName": "Catalogs",
+    "icon": "detail",
+    "parentPath": "",
+    "children": [
       {
-        "_id": "45a1519c-4f4c-4604-9409-fee6b9e016c5",
-        "name": "FinalProduct AAA"
+        "parentPath": "/catalog",
+        "menuUrl": "/registry",
+        "children": [
+          {
+            "parentPath": "/registry",
+            "menuUrl": "/registry/manufacturers/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/registry",
+            "menuUrl": "/registry/manufacturers/:id?",
+            "hidden": false
+          }
+        ]
       },
       {
-        "_id": "9a928842-a86d-4a3e-a32b-4e39a23dba58",
-        "name": "FinalProduct BBB"
+        "parentPath": "/catalog",
+        "menuUrl": "/catalogfactory",
+        "menuName": "Factory",
+        "children": [
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/hotShears/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/hotShears/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/standRRs/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/standRRs/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/standMBs/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/standMBs/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/bearings/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/bearings/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/inverters/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/inverters/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/motors/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/motors/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/gearReducers/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/gearReducers/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/pipes/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogfactory",
+            "menuUrl": "/catalogfactory/pipes/:id?",
+            "hidden": false
+          }
+        ]
       },
       {
-        "_id": "ab313f00-0e08-465f-8bc1-4d8ad74af3d5",
-        "name": "FinalProduct CCC"
+        "parentPath": "/catalog",
+        "menuUrl": "/catalogproduction",
+        "menuName": "Production",
+        "children": [
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/feedstockShapes/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/feedstockShapes/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/rollsBodies/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/rollsBodies/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/feedstockMaterials/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/feedstockMaterials/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/rollMaterials/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/rollMaterials/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/finalProducts/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/finalProducts/:id?",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/grooves/list",
+            "hidden": false
+          },
+          {
+            "parentPath": "/catalogproduction",
+            "menuUrl": "/catalogproduction/grooves/:id?",
+            "hidden": false
+          }
+        ]
       }
-    ],
-    "materials": [
+    ]
+  },
+  {
+    "menuUrl": "/factory",
+    "routeName": "factory",
+    "hidden": false,
+    "icon": "icon-dashboard",
+    "parentPath": "",
+    "children": [
       {
-        "_id": "88a1519c-4f4c-4604-9409-fee6b9e016c6",
-        "name": "Material AAA"
+        "parentPath": "/factory",
+        "menuUrl": "/plants/all",
+        "hidden": false
       },
       {
-        "_id": "8807d1fa-375d-4d20-a853-7140aedbe6a5",
-        "name": "Material BBB"
+        "parentPath": "/factory",
+        "menuUrl": "/plants/:plantId?/productionLines",
+        "hidden": false
       },
       {
-        "_id": "8817ec14-9c05-4d4a-920f-f610fab6026b",
-        "name": "Material CCC"
+        "parentPath": "/factory",
+        "menuUrl": "/board/:plantId?/:boardId?",
+        "hidden": false
+      },
+      {
+        "parentPath": "/factory",
+        "menuUrl": "/board/:boardId",
+        "hidden": false
       }
-    ],
-    "productions": [
+    ]
+  },
+  {
+    "menuUrl": "/factoryManager",
+    "icon": "icon-dashboard",
+    "children": [
       {
-        "_id": "99462bcd-9866-455f-b99a-f6642bf1a4d6",
-        "name": "Produzione AAA",
-        "billetId": "0fbc11f5-0898-4f2e-afcc-da4cfb3dd3bf",
-        "finalProductId": "45a1519c-4f4c-4604-9409-fee6b9e016c5",
-        "materialId": "45a1519c-4f4c-4604-9409-fee6b9e016c6"
+        "menuUrl": "/factoryManager/rollType",
+        "hidden": false
       },
       {
-        "_id": "99ea8fd5-887d-4a43-8b5c-4ac70348b437",
-        "name": "Produzione BBB",
-        "billetId": "7960caa0-165b-4b4c-98ea-14fca7249549",
-        "finalProductId": "9a928842-a86d-4a3e-a32b-4e39a23dba58",
-        "materialId": "a407d1fa-375d-4d20-a853-7140aedbe6a5"
+        "menuUrl": "/factoryManager/pipeType",
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "menuUrl": "/production",
+    "routeName": "production",
+    "hidden": false,
+    "icon": "icon-dashboard",
+    "parentPath": "",
+    "children": [
+      {
+        "parentPath": "/production",
+        "menuUrl": "/plants/our",
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "menuUrl": "/origin",
+    "hidden": true,
+    "children": [
+      {
+        "menuUrl": "/dashboard",
+        "hidden": false
       },
       {
-        "_id": "9930ed7c-d332-4e7b-b289-738c01730f4f",
-        "name": "Produzione CCC",
-        "billetId": "7960caa0-165b-4b4c-98ea-14fca7249549",
-        "finalProductId": "9a928842-a86d-4a3e-a32b-4e39a23dba58",
-        "materialId": "a407d1fa-375d-4d20-a853-7140aedbe6a5"
-      },
-      {
-        "_id": "99734ca3-9dd2-46d2-b75e-dbe73317096a",
-        "name": "Produzione DDD",
-        "billetId": "7960caa0-165b-4b4c-98ea-14fca7249549",
-        "finalProductId": "9a928842-a86d-4a3e-a32b-4e39a23dba58",
-        "materialId": "a407d1fa-375d-4d20-a853-7140aedbe6a5"
-      },
-      {
-        "_id": "993197c8-66ec-4caf-944d-170fdd7e700c",
-        "name": "Produzione EEE",
-        "billetId": "ec2c3476-4480-4f34-9fda-bb695f7b609f",
-        "finalProductId": "ab313f00-0e08-465f-8bc1-4d8ad74af3d5",
-        "materialId": "7317ec14-9c05-4d4a-920f-f610fab6026b"
-      },
-      {
-        "_id": "99097a3c-51cd-4b59-8f64-7b7a81be7ec5",
-        "name": "Produzione FFF",
-        "billetId": "ec2c3476-4480-4f34-9fda-bb695f7b609f",
-        "finalProductId": "ab313f00-0e08-465f-8bc1-4d8ad74af3d5",
-        "materialId": "7317ec14-9c05-4d4a-920f-f610fab6026b"
+        "menuUrl": "/workplace",
+        "hidden": false
       }
     ]
   }
+]
 }
