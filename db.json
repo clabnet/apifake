@@ -1,267 +1,681 @@
 {
   "editorRoutes": [
-  {
-    "menuUrl": "/index",
-    "menuName": "Back",
-    "meta": {
-      "iconPrefix": "pomini-"
+    {
+      "menuUrl": "/index",
+      "menuName": "Back",
+      "meta": {
+        "iconPrefix": "pomini-"
+      },
+      "children": [
+        {
+          "parentPath": "/",
+          "menuUrl": "/home",
+          "menuName": "Welcome"
+        }
+      ]
     },
-    "children": [
-      {
-        "parentPath": "/",
-        "menuUrl": "/home",
-        "menuName": "Welcome"
-      }
-    ]
-  },
-  {
-    "menuUrl": "/catalog",
-    "menuName": "Catalogs",
-    "icon": "detail",
-    "parentPath": "",
-    "children": [
-      {
-        "parentPath": "/catalog",
-        "menuUrl": "/registry",
-        "children": [
-          {
-            "parentPath": "/registry",
-            "menuUrl": "/registry/manufacturers/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/registry",
-            "menuUrl": "/registry/manufacturers/:id?",
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "parentPath": "/catalog",
-        "menuUrl": "/catalogfactory",
-        "menuName": "Factory",
-        "children": [
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/hotShears/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/hotShears/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/standRRs/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/standRRs/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/standMBs/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/standMBs/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/bearings/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/bearings/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/inverters/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/inverters/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/motors/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/motors/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/gearReducers/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/gearReducers/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/pipes/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogfactory",
-            "menuUrl": "/catalogfactory/pipes/:id?",
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "parentPath": "/catalog",
-        "menuUrl": "/catalogproduction",
-        "menuName": "Production",
-        "children": [
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/feedstockShapes/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/feedstockShapes/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/rollsBodies/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/rollsBodies/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/feedstockMaterials/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/feedstockMaterials/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/rollMaterials/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/rollMaterials/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/finalProducts/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/finalProducts/:id?",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/grooves/list",
-            "hidden": false
-          },
-          {
-            "parentPath": "/catalogproduction",
-            "menuUrl": "/catalogproduction/grooves/:id?",
-            "hidden": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "menuUrl": "/factory",
-    "routeName": "factory",
-    "hidden": false,
-    "icon": "icon-dashboard",
-    "parentPath": "",
-    "children": [
-      {
-        "parentPath": "/factory",
-        "menuUrl": "/plants/all",
-        "hidden": false
-      },
-      {
-        "parentPath": "/factory",
-        "menuUrl": "/plants/:plantId?/productionLines",
-        "hidden": false
-      },
-      {
-        "parentPath": "/factory",
-        "menuUrl": "/board/:plantId?/:boardId?",
-        "hidden": false
-      },
-      {
-        "parentPath": "/factory",
-        "menuUrl": "/board/:boardId",
-        "hidden": false
-      }
-    ]
-  },
-  {
-    "menuUrl": "/factoryManager",
-    "icon": "icon-dashboard",
-    "children": [
-      {
-        "menuUrl": "/factoryManager/rollType",
-        "hidden": false
-      },
-      {
-        "menuUrl": "/factoryManager/pipeType",
-        "hidden": false
-      }
-    ]
-  },
-  {
-    "menuUrl": "/production",
-    "routeName": "production",
-    "hidden": false,
-    "icon": "icon-dashboard",
-    "parentPath": "",
-    "children": [
-      {
-        "parentPath": "/production",
-        "menuUrl": "/plants/our",
-        "hidden": false
-      }
-    ]
-  },
-  {
-    "menuUrl": "/origin",
-    "hidden": true,
-    "children": [
-      {
-        "menuUrl": "/dashboard",
-        "hidden": false
-      },
-      {
-        "menuUrl": "/workplace",
-        "hidden": false
-      }
-    ]
-  }
-]
+    {
+      "menuUrl": "/catalog",
+      "menuName": "Catalogs",
+      "icon": "detail",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/catalog",
+          "menuUrl": "/registry",
+          "children": [
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/manufacturers/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/manufacturers/:id?",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "parentPath": "/catalog",
+          "menuUrl": "/catalogfactory",
+          "menuName": "Factory",
+          "children": [
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/hotShears/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/hotShears/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standRRs/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standRRs/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standMBs/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standMBs/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/bearings/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/bearings/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/inverters/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/inverters/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/motors/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/motors/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/gearReducers/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/gearReducers/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/pipes/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/pipes/:id?",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "parentPath": "/catalog",
+          "menuUrl": "/catalogproduction",
+          "menuName": "Production",
+          "children": [
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockShapes/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockShapes/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollsBodies/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollsBodies/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockMaterials/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockMaterials/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollMaterials/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollMaterials/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/finalProducts/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/finalProducts/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/grooves/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/grooves/:id?",
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuUrl": "/factory",
+      "routeName": "factory",
+      "hidden": false,
+      "icon": "icon-dashboard",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/plants/all",
+          "hidden": false
+        },
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/plants/:plantId?/productionLines",
+          "hidden": false
+        },
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/board/:plantId?/:boardId?",
+          "hidden": false
+        },
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/board/:boardId",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/factoryManager",
+      "icon": "icon-dashboard",
+      "children": [
+        {
+          "menuUrl": "/factoryManager/rollType",
+          "hidden": false
+        },
+        {
+          "menuUrl": "/factoryManager/pipeType",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/production",
+      "routeName": "production",
+      "hidden": false,
+      "icon": "icon-dashboard",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/production",
+          "menuUrl": "/plants/our",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/origin",
+      "hidden": true,
+      "children": [
+        {
+          "menuUrl": "/dashboard",
+          "hidden": false
+        },
+        {
+          "menuUrl": "/workplace",
+          "hidden": false
+        }
+      ]
+    }
+  ],
+  "adminRoutes": [
+    {
+      "menuUrl": "/index",
+      "menuName": "Home",
+      "children": [
+        {
+          "parentPath": "/",
+          "menuUrl": "/home",
+          "menuName": "Welcome"
+        }
+      ]
+    },
+    {
+      "menuUrl": "/system",
+      "menuName": "Accounting",
+      "iconPrefix": "iconfont",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/system",
+          "menuUrl": "/system/department",
+          "menuName": "Departments",
+          "badge": "new",
+          "routeName": "department",
+          "localFilePath": "/system/local-path/department"
+        },
+        {
+          "parentPath": "/system",
+          "menuUrl": "/system/role",
+          "menuName": "Roles",
+          "badge": "12"
+        },
+        {
+          "parentPath": "/system",
+          "menuUrl": "/system/user",
+          "menuName": "Users",
+          "badge": "dot"
+        },
+        {
+          "parentPath": "/system",
+          "menuUrl": "/system/menu",
+          "menuName": "Menu"
+        }
+      ]
+    },
+    {
+      "menuUrl": "/mediaservice",
+      "hidden": false,
+      "children": [
+        {
+          "parentPath": "/mediaservice",
+          "menuUrl": "/mediaservice/player",
+          "menuName": "",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/catalog",
+      "menuName": "Catalogs",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/catalog",
+          "menuUrl": "/registry",
+          "children": [
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/customers/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/customers/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/countries/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/countries/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/plants/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/plants/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/manufacturers/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/registry",
+              "menuUrl": "/registry/manufacturers/:id?",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "parentPath": "/catalog",
+          "menuUrl": "/catalogfactory",
+          "menuName": "Factory",
+          "children": [
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/hotShears/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/hotShears/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standRRs/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standRRs/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standMBs/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/standMBs/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/bearings/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/bearings/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/inverters/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/inverters/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/motors/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/motors/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/gearReducers/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/gearReducers/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/pipes/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogfactory",
+              "menuUrl": "/catalogfactory/pipes/:id?",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "parentPath": "/catalog",
+          "menuUrl": "/catalogproduction",
+          "menuName": "Production",
+          "children": [
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockShapes/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockShapes/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollsBodies/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollsBodies/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockMaterials/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/feedstockMaterials/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollMaterials/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/rollMaterials/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/finalProducts/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/finalProducts/:id?",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/grooves/list",
+              "hidden": false
+            },
+            {
+              "parentPath": "/catalogproduction",
+              "menuUrl": "/catalogproduction/grooves/:id?",
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuUrl": "/factory",
+      "routeName": "factory",
+      "hidden": false,
+      "icon": "icon-dashboard",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/plants/all",
+          "hidden": false
+        },
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/plants/:plantId?/productionLines",
+          "hidden": false
+        },
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/board/:plantId?/:boardId?",
+          "hidden": false
+        },
+        {
+          "parentPath": "/factory",
+          "menuUrl": "/board/:boardId",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/factoryManager",
+      "icon": "icon-dashboard",
+      "children": [
+        {
+          "menuUrl": "/factoryManager/rollType",
+          "hidden": false
+        },
+        {
+          "menuUrl": "/factoryManager/pipeType",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/production",
+      "routeName": "production",
+      "hidden": false,
+      "icon": "icon-dashboard",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/production",
+          "menuUrl": "/plants/our",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/other",
+      "menuName": "Other",
+      "icon": "appstore",
+      "parentPath": "",
+      "children": [
+        {
+          "parentPath": "/other",
+          "menuUrl": "/other/charts",
+          "menuName": "Charts",
+          "hidden": true,
+          "children": [
+            {
+              "parentPath": "/other/charts",
+              "menuUrl": "/other/charts/echarts",
+              "menuName": "echarts",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "parentPath": "/other",
+          "menuUrl": "/other/icons/iconList",
+          "menuName": "Pomini icons",
+          "hidden": false
+        },
+        {
+          "parentPath": "/other",
+          "menuUrl": "/other/chart/icon-selector",
+          "menuName": "icon selector",
+          "hidden": true
+        },
+        {
+          "parentPath": "/other",
+          "menuUrl": "/other/badge",
+          "menuName": "Notifications",
+          "hidden": true
+        },
+        {
+          "parentPath": "/other",
+          "menuUrl": "/project/infomation",
+          "menuName": "Packages",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/ext",
+      "menuName": "External links",
+      "icon": "circle-arrow-right",
+      "hidden": true,
+      "children": [
+        {
+          "parentPath": "/ext",
+          "menuUrl": "https://musterkatalog1.quanos-service-solutions.com/POMINI_20220426/public/index.php",
+          "menuName": "Spare parts",
+          "hidden": false
+        },
+        {
+          "parentPath": "/ext",
+          "menuUrl": "https://www.naiveui.com/en-US/os-theme",
+          "menuName": "Naive-UI",
+          "hidden": false
+        },
+        {
+          "parentPath": "/ext",
+          "menuUrl": "https://pominirollingmills.com/en/pomini-icons",
+          "menuName": "Pomini Icons site",
+          "hidden": false
+        },
+        {
+          "parentPath": "/ext",
+          "menuUrl": "https://www.xicons.org/#/",
+          "menuName": "Icons",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "menuUrl": "/origin",
+      "hidden": true,
+      "children": [
+        {
+          "menuUrl": "/dashboard",
+          "hidden": false
+        },
+        {
+          "menuUrl": "/workplace",
+          "hidden": false
+        }
+      ]
+    }
+  ]
 }
